@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+        <style>
+        	html {
+				margin: 1em;
+				padding: 1em;
+				height: 100%;
+			}
+			body { 
+                background-color: #e5e6eb ;
+				font: 100% Raleway, sans-serif;
+                font-size: 14pt;
+				line-height: 1.8em;
+				color: #25262a; 
+				height:100%
+			}
+            iframe {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            h2 { 
+	            font: 1.75em arial;
+                padding: 60px;
+                text-align: center;
+                background: #585a63;
+                color: #f8f8fa ;
+                font-size: 27px;
+            }
+            h3 {
+                font: 1.75em arial;
+                font-weight: bold;
+                padding: 5px;
+                text-align: center;
+                color: #25262a;
+                font-size: 50px;
+            }
+		</style>
+
+    <body>
+        <h3>Voting in Virginia</h3>
+
+    	<h2> <center>Does Frequency of Voting Change With Income and Education Levels?</center></h2>
+        <iframe src="voter_parplot.html" title="Bubble Plot"  height = 50% width = 60%
+    	frameBorder="0"></iframe> 
+
+
+        <p><center> This plot uses fiveThirtyeight voting data from Virginia that comes from the article "Why Many Americans Don't Vote."<br>
+            This data explores the characteristics and beliefs of voters and non-voters in US elections. In this specific plot, we <br>
+            will look at self-reported education levels, income levels, and frequency with which the respondents vote.</center></p>
+        
+        <p><center> We can see from this plot that around half of people who self-reported that they never vote have less that a high school<br>
+            education. On the other hand, around half of self-reported "always" voters have a college education. Sporadic is a relatively<br>
+            even spread in terms of education level. There does not seem to be a strong correlation between income level and voting frequency.</center></p>
+        
+        <h2> <center>How Did Voter Turnout and Absentee Voting Change in Virginia General Elections
+            from 2014 to 2022?</center></h2>
+        <iframe src="voter_%.html" title="Bubble Plot" height = 100% width = 80%
+    	frameBorder="0"></iframe> 
+
+        <p><center> This plot uses Virginia voting data over the years 2014-2022. It shows the relationship between absentee voters and voter turnout by region. <br>
+            A tooltip is included to show each county data. It is important to note that in the original data, some voter turnout <br>
+            percentages were above 100%. These values are included in the final data to ensure the vizualization is accurate. However, the values <br>
+            greater than 100% are not visible on the plot.  </center></p> 
+        
+        <p> <center>Notice in the animation that the percentage of absentee voters in 2020 was much higher that other years. This is shown by bubbles <br>
+            much higher on the y axis in the year 2020. There are many factors that influence absentee voting, but we can assume that COVID-19 played <br>
+            a large part in this difference in numbers in 2020. The 2020 election occured at the peak of the COVID-19 pandemic, causing many voters to <br>
+            mail in their ballots. There are also high voter turnouts due to the fact 2020 was a highly conentious presidential election year. Notice that <br>
+            both 2016 and 2020 there is a jump in voter turnout percent. This is because both of these years were presidential elections. This plot also <br>
+            reveals that the Northern and Hampton Roads regions of Virginia consistently have the largest voter registration. We might attribute this to <br>
+            Richmond and DC suburbs being located in these regions, which have high population concentrations.</center></p>
+        
+        <h2> <center>What Did Voter Turnout Look Like in Cities and Counties in Virginia in the 2022 General
+            Election?</center> </h2>
+        <iframe src="Chloropleth.html" title="Chloropleth" height = 100% width = 80%
+    	frameBorder="0"></iframe> 
+
+        <p><center>The chloropleth map of voter turnout by county in Virginia reveals that in 2022, there were relatively lower voter turnout rates in <br>
+            Southwestern Virgnia. We also see that near Washington DC in the North and Richmond near the Eastern Coast have higher turnouts. <br>
+            In the middle of the state there seems to be avergae voter turnout rates between 40% and 56%.</center></p>
+    </body>
+</html>
